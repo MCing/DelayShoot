@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	
+<!-- 显示用户输入日期、时间的控件 -->
+<EditText android:id="@+id/show"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:editable="false"
+	android:cursorVisible="false"
+	/>	
+<TextView  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="请选择日期和时间"
+	/>
+<!-- 定义一个DatePicker组件 -->
+<DatePicker android:id="@+id/datePicker"
+	android:layout_width="wrap_content" 
+	android:layout_height="200dp"
+	android:layout_gravity="center_horizontal"
+	android:startYear="2000"
+	android:endYear="2050"
+	android:calendarViewShown="true"
+	android:spinnersShown="true"
+	/>
+<!-- 定义一个TimePicker组件 -->
+<TimePicker android:id="@+id/timePicker"
+	android:layout_width="wrap_content" 
+	android:layout_height="100dp"
+	android:layout_gravity="center_horizontal"
+	/>
+
+<Button
+    android:id="@+id/btn_confirm"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="确定" />
+
+</LinearLayout>

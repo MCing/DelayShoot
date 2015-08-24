@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">延时摄像</string>
+    <string name="picktime">时　间</string>
+    <string name="timetip">请选择时长</string>
+
+</resources>
